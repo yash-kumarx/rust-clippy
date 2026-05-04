@@ -12,8 +12,16 @@ document.
 
 * Added [`new_instead_of_clear`] to `perf`
   [#16549](https://github.com/rust-lang/rust-clippy/pull/16549)
-* Added [`unnecessary_trailing_comma`] to `style` (single-line format-like macros only)
-  [#13965](https://github.com/rust-lang/rust-clippy/issues/13965)
+* Added [`unnecessary_trailing_comma`] to `pedantic`
+  [#16530](https://github.com/rust-lang/rust-clippy/pull/16530)
+* Added [`disallowed_fields`] to `style`
+  [#16218](https://github.com/rust-lang/rust-clippy/pull/16218)
+* Added [`manual_checked_ops`] to `complexity`
+  [#16149](https://github.com/rust-lang/rust-clippy/pull/16149)
+* Added [`duration_suboptimal_units`] to `pedantic`
+  [#16250](https://github.com/rust-lang/rust-clippy/pull/16250)
+* Added [`manual_take`] to `complexity`
+  [#16368](https://github.com/rust-lang/rust-clippy/pull/16368)
 
 ## Rust 1.93
 
