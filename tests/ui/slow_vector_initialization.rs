@@ -1,5 +1,5 @@
 #![warn(clippy::slow_vector_initialization)]
-#![allow(clippy::useless_vec)]
+#![allow(clippy::new_instead_of_clear, clippy::useless_vec)]
 #![expect(clippy::manual_repeat_n)]
 
 use std::iter::repeat;
